@@ -1,12 +1,18 @@
-{ "short_name": "pwa-test",
-    "name": "pwa-test",
+{
+    "short_name": "pokePwa",
+    "name": "Pokemon PWA",
     "start_url": "/",
-    "icons": [],
-    "background_color": "#33b0d6",
+    "icons": [
+        {
+            "src": "logo_512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "background_color": "#22ABDD",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#33b0d6",
+    "theme_color": "#22ABDD",
     "shortcuts": [],
-    "description": "pwa-test"
-    }
-    
+    "description": "PWA Pokemon"
+}
